@@ -19,6 +19,6 @@ app.add_middleware(
 def read_root():
     return {"Hello": "Chen Yang"}  # Replace "YourName" with your actual name
 
-@app.get("/uni/{uni_id}")
+@app.get("/uni/{cy2719}")
 def read_item(uni_id: str, q: Union[str, None] = None):
     return {"uni_id": uni_id, "q": q}
